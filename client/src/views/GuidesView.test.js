@@ -21,7 +21,6 @@ describe('GuidesView', () => {
     const wrapper = mount(GuidesView, {
       global: { stubs: { RouterLink: { template: '<a><slot /></a>' } } },
     })
-    await flushPromises()
     expect(wrapper.text()).toContain('Kebnekaise')
     expect(wrapper.text()).toContain('1 av 1')
   })
