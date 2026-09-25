@@ -1,3 +1,4 @@
+```mermaid
 flowchart LR
   B[branch + commit] --> PR[pull request]
   PR --> Q[Kvalitet: lint · format · test]
@@ -6,6 +7,7 @@ flowchart LR
   BU --> S
   S -->|ja| M[merge]
   S -->|nej| F[fixa, pusha igen]
+```
 
 
 | step | time |
