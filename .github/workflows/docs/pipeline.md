@@ -8,7 +8,6 @@ flowchart LR
   S -->|nej| F[fixa, pusha igen]
 
 
-
 | step | time |
 |---|---:|
 | npm ci | 5 s |
