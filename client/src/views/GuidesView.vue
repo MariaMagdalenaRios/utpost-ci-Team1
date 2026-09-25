@@ -29,9 +29,6 @@ const visible = computed(() => {
     (g) => g.title.toLowerCase().includes(q) || g.region.toLowerCase().includes(q),
   )
 })
-
-const unused = 1
-
 </script>
 
 <template>
